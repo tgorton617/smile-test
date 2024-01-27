@@ -1,0 +1,21 @@
+{
+    "users": [
+      {
+        "username": "ANONYMOUS",
+        "familyName": "Anonymous",
+        "givenName": "Anonymous",
+        "systemUser": true,
+        "authorities": [
+          {
+            "permission": "ROLE_ANONYMOUS"
+          },
+          {
+            "permission": "ACCESS_ADMIN_JSON"
+          },
+          {
+            "permission": "ROLE_SUPERUSER"
+          }
+        ]
+      }
+    ]
+  }

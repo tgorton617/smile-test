@@ -1,0 +1,14 @@
+PUT http://localhost:8080/Patient?identifier=http://www.timgorton.com/test|foo HTTP/1.1
+Content-type: application/json; charset=utf8
+X-User: 1
+
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "system": "http://www.timgorton.com/test",
+            "value": "foo"
+        }
+    ]
+    
+}
